@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C9F9423-AABC-456C-BE3E-FC97D444885F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MedicalApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29564CA7-FFA8-4490-87B7-8C9F1B452A93</key>
+		<string>https://github.com/khanbasit88/MedicalApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MedicalApp/MedicalApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29564CA7-FFA8-4490-87B7-8C9F1B452A93</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/khanbasit88/MedicalApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29564CA7-FFA8-4490-87B7-8C9F1B452A93</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29564CA7-FFA8-4490-87B7-8C9F1B452A93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Medical App iPad</string>
+		</dict>
+	</array>
+</dict>
+</plist>

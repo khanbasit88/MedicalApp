@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4E870B419503A7700168A3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E870B319503A7700168A3C /* Foundation.framework */; };
+		A4E870B619503A7700168A3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E870B519503A7700168A3C /* CoreGraphics.framework */; };
+		A4E870B819503A7700168A3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E870B719503A7700168A3C /* UIKit.framework */; };
+		A4E870BE19503A7700168A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4E870BC19503A7700168A3C /* InfoPlist.strings */; };
+		A4E870C019503A7700168A3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E870BF19503A7700168A3C /* main.m */; };
+		A4E870C419503A7700168A3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E870C319503A7700168A3C /* AppDelegate.m */; };
+		A4E870C719503A7700168A3C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E870C519503A7700168A3C /* Main_iPhone.storyboard */; };
+		A4E870CA19503A7700168A3C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E870C819503A7700168A3C /* Main_iPad.storyboard */; };
+		A4E870CD19503A7700168A3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E870CC19503A7700168A3C /* ViewController.m */; };
+		A4E870CF19503A7700168A3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E870CE19503A7700168A3C /* Images.xcassets */; };
+		A4E870D619503A7800168A3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E870D519503A7800168A3C /* XCTest.framework */; };
+		A4E870D719503A7800168A3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E870B319503A7700168A3C /* Foundation.framework */; };
+		A4E870D819503A7800168A3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E870B719503A7700168A3C /* UIKit.framework */; };
+		A4E870E019503A7800168A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4E870DE19503A7800168A3C /* InfoPlist.strings */; };
+		A4E870E219503A7800168A3C /* MedicalAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E870E119503A7800168A3C /* MedicalAppTests.m */; };
+		A4E870EE19503B4900168A3C /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E870ED19503B4900168A3C /* Splash.png */; };
+		A4E870F519503C2700168A3C /* btn_login.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E870EF19503C2700168A3C /* btn_login.png */; };
+		A4E870F619503C2700168A3C /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E870F019503C2700168A3C /* check.png */; };
+		A4E870F719503C2700168A3C /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E870F119503C2700168A3C /* Login.png */; };
+		A4E870F819503C2700168A3C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E870F219503C2700168A3C /* logo.png */; };
+		A4E870F919503C2700168A3C /* txt_field.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E870F319503C2700168A3C /* txt_field.png */; };
+		A4E870FA19503C2700168A3C /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E870F419503C2700168A3C /* uncheck.png */; };
+		A4E870FC19503C6A00168A3C /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E870FB19503C6A00168A3C /* bg.png */; };
+		A4E8710019503CD900168A3C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E870FF19503CD900168A3C /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4E870D919503A7800168A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E870A819503A7700168A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E870AF19503A7700168A3C;
+			remoteInfo = MedicalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4E870B019503A7700168A3C /* MedicalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E870B319503A7700168A3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4E870B519503A7700168A3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4E870B719503A7700168A3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4E870BB19503A7700168A3C /* MedicalApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicalApp-Info.plist"; sourceTree = "<group>"; };
+		A4E870BD19503A7700168A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4E870BF19503A7700168A3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4E870C119503A7700168A3C /* MedicalApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedicalApp-Prefix.pch"; sourceTree = "<group>"; };
+		A4E870C219503A7700168A3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4E870C319503A7700168A3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4E870C619503A7700168A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A4E870C919503A7700168A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A4E870CB19503A7700168A3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4E870CC19503A7700168A3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4E870CE19503A7700168A3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4E870D419503A7800168A3C /* MedicalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E870D519503A7800168A3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4E870DD19503A7800168A3C /* MedicalAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicalAppTests-Info.plist"; sourceTree = "<group>"; };
+		A4E870DF19503A7800168A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4E870E119503A7800168A3C /* MedicalAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicalAppTests.m; sourceTree = "<group>"; };
+		A4E870ED19503B4900168A3C /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		A4E870EF19503C2700168A3C /* btn_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_login.png; sourceTree = "<group>"; };
+		A4E870F019503C2700168A3C /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		A4E870F119503C2700168A3C /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		A4E870F219503C2700168A3C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A4E870F319503C2700168A3C /* txt_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txt_field.png; sourceTree = "<group>"; };
+		A4E870F419503C2700168A3C /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		A4E870FB19503C6A00168A3C /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		A4E870FE19503CD900168A3C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A4E870FF19503CD900168A3C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E870AD19503A7700168A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E870B619503A7700168A3C /* CoreGraphics.framework in Frameworks */,
+				A4E870B819503A7700168A3C /* UIKit.framework in Frameworks */,
+				A4E870B419503A7700168A3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E870D119503A7800168A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E870D619503A7800168A3C /* XCTest.framework in Frameworks */,
+				A4E870D819503A7800168A3C /* UIKit.framework in Frameworks */,
+				A4E870D719503A7800168A3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4E870A719503A7700168A3C = {
+			isa = PBXGroup;
+			children = (
+				A4E870B919503A7700168A3C /* MedicalApp */,
+				A4E870DB19503A7800168A3C /* MedicalAppTests */,
+				A4E870B219503A7700168A3C /* Frameworks */,
+				A4E870B119503A7700168A3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E870B119503A7700168A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E870B019503A7700168A3C /* MedicalApp.app */,
+				A4E870D419503A7800168A3C /* MedicalAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E870B219503A7700168A3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4E870B319503A7700168A3C /* Foundation.framework */,
+				A4E870B519503A7700168A3C /* CoreGraphics.framework */,
+				A4E870B719503A7700168A3C /* UIKit.framework */,
+				A4E870D519503A7800168A3C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E870B919503A7700168A3C /* MedicalApp */ = {
+			isa = PBXGroup;
+			children = (
+				A4E870EB19503AF300168A3C /* iPad Classes */,
+				A4E870EC19503AF300168A3C /* iPad Images */,
+				A4E870C219503A7700168A3C /* AppDelegate.h */,
+				A4E870C319503A7700168A3C /* AppDelegate.m */,
+				A4E870C519503A7700168A3C /* Main_iPhone.storyboard */,
+				A4E870C819503A7700168A3C /* Main_iPad.storyboard */,
+				A4E870CB19503A7700168A3C /* ViewController.h */,
+				A4E870CC19503A7700168A3C /* ViewController.m */,
+				A4E870CE19503A7700168A3C /* Images.xcassets */,
+				A4E870BA19503A7700168A3C /* Supporting Files */,
+			);
+			path = MedicalApp;
+			sourceTree = "<group>";
+		};
+		A4E870BA19503A7700168A3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E870BB19503A7700168A3C /* MedicalApp-Info.plist */,
+				A4E870BC19503A7700168A3C /* InfoPlist.strings */,
+				A4E870BF19503A7700168A3C /* main.m */,
+				A4E870C119503A7700168A3C /* MedicalApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4E870DB19503A7800168A3C /* MedicalAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E870E119503A7800168A3C /* MedicalAppTests.m */,
+				A4E870DC19503A7800168A3C /* Supporting Files */,
+			);
+			path = MedicalAppTests;
+			sourceTree = "<group>";
+		};
+		A4E870DC19503A7800168A3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E870DD19503A7800168A3C /* MedicalAppTests-Info.plist */,
+				A4E870DE19503A7800168A3C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4E870EB19503AF300168A3C /* iPad Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A4E870FD19503CBF00168A3C /* Login */,
+			);
+			path = "iPad Classes";
+			sourceTree = "<group>";
+		};
+		A4E870EC19503AF300168A3C /* iPad Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4E870FB19503C6A00168A3C /* bg.png */,
+				A4E870EF19503C2700168A3C /* btn_login.png */,
+				A4E870F019503C2700168A3C /* check.png */,
+				A4E870F119503C2700168A3C /* Login.png */,
+				A4E870F219503C2700168A3C /* logo.png */,
+				A4E870F319503C2700168A3C /* txt_field.png */,
+				A4E870F419503C2700168A3C /* uncheck.png */,
+				A4E870ED19503B4900168A3C /* Splash.png */,
+			);
+			path = "iPad Images";
+			sourceTree = "<group>";
+		};
+		A4E870FD19503CBF00168A3C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A4E870FE19503CD900168A3C /* LoginViewController.h */,
+				A4E870FF19503CD900168A3C /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E870AF19503A7700168A3C /* MedicalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E870E519503A7800168A3C /* Build configuration list for PBXNativeTarget "MedicalApp" */;
+			buildPhases = (
+				A4E870AC19503A7700168A3C /* Sources */,
+				A4E870AD19503A7700168A3C /* Frameworks */,
+				A4E870AE19503A7700168A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalApp;
+			productName = MedicalApp;
+			productReference = A4E870B019503A7700168A3C /* MedicalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4E870D319503A7800168A3C /* MedicalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E870E819503A7800168A3C /* Build configuration list for PBXNativeTarget "MedicalAppTests" */;
+			buildPhases = (
+				A4E870D019503A7800168A3C /* Sources */,
+				A4E870D119503A7800168A3C /* Frameworks */,
+				A4E870D219503A7800168A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E870DA19503A7800168A3C /* PBXTargetDependency */,
+			);
+			name = MedicalAppTests;
+			productName = MedicalAppTests;
+			productReference = A4E870D419503A7800168A3C /* MedicalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E870A819503A7700168A3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Basit Khan";
+				TargetAttributes = {
+					A4E870D319503A7800168A3C = {
+						TestTargetID = A4E870AF19503A7700168A3C;
+					};
+				};
+			};
+			buildConfigurationList = A4E870AB19503A7700168A3C /* Build configuration list for PBXProject "MedicalApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4E870A719503A7700168A3C;
+			productRefGroup = A4E870B119503A7700168A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E870AF19503A7700168A3C /* MedicalApp */,
+				A4E870D319503A7800168A3C /* MedicalAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E870AE19503A7700168A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E870FA19503C2700168A3C /* uncheck.png in Resources */,
+				A4E870F519503C2700168A3C /* btn_login.png in Resources */,
+				A4E870FC19503C6A00168A3C /* bg.png in Resources */,
+				A4E870F919503C2700168A3C /* txt_field.png in Resources */,
+				A4E870CA19503A7700168A3C /* Main_iPad.storyboard in Resources */,
+				A4E870F819503C2700168A3C /* logo.png in Resources */,
+				A4E870F619503C2700168A3C /* check.png in Resources */,
+				A4E870CF19503A7700168A3C /* Images.xcassets in Resources */,
+				A4E870EE19503B4900168A3C /* Splash.png in Resources */,
+				A4E870F719503C2700168A3C /* Login.png in Resources */,
+				A4E870C719503A7700168A3C /* Main_iPhone.storyboard in Resources */,
+				A4E870BE19503A7700168A3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E870D219503A7800168A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E870E019503A7800168A3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E870AC19503A7700168A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E8710019503CD900168A3C /* LoginViewController.m in Sources */,
+				A4E870CD19503A7700168A3C /* ViewController.m in Sources */,
+				A4E870C419503A7700168A3C /* AppDelegate.m in Sources */,
+				A4E870C019503A7700168A3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E870D019503A7800168A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E870E219503A7800168A3C /* MedicalAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4E870DA19503A7800168A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E870AF19503A7700168A3C /* MedicalApp */;
+			targetProxy = A4E870D919503A7800168A3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4E870BC19503A7700168A3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E870BD19503A7700168A3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4E870C519503A7700168A3C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E870C619503A7700168A3C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A4E870C819503A7700168A3C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E870C919503A7700168A3C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A4E870DE19503A7800168A3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E870DF19503A7800168A3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4E870E319503A7800168A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4E870E419503A7800168A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E870E619503A7800168A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalApp/MedicalApp-Prefix.pch";
+				INFOPLIST_FILE = "MedicalApp/MedicalApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4E870E719503A7800168A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalApp/MedicalApp-Prefix.pch";
+				INFOPLIST_FILE = "MedicalApp/MedicalApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4E870E919503A7800168A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedicalApp.app/MedicalApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalApp/MedicalApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MedicalAppTests/MedicalAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A4E870EA19503A7800168A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedicalApp.app/MedicalApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalApp/MedicalApp-Prefix.pch";
+				INFOPLIST_FILE = "MedicalAppTests/MedicalAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E870AB19503A7700168A3C /* Build configuration list for PBXProject "MedicalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E870E319503A7800168A3C /* Debug */,
+				A4E870E419503A7800168A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E870E519503A7800168A3C /* Build configuration list for PBXNativeTarget "MedicalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E870E619503A7800168A3C /* Debug */,
+				A4E870E719503A7800168A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4E870E819503A7800168A3C /* Build configuration list for PBXNativeTarget "MedicalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E870E919503A7800168A3C /* Debug */,
+				A4E870EA19503A7800168A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4E870A819503A7700168A3C /* Project object */;
+}
